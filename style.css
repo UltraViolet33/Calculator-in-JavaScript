@@ -1,0 +1,81 @@
+#keyboard{
+    display: grid;
+
+    grid-template-areas:"seven eight nine del"
+                        "four five six plus "
+                        "one two three mines"
+                        "point zero divide multiply"
+                        "reset reset equal equal";
+
+    width:300px;
+                        
+                        
+}
+
+#seven{
+    grid-area:seven;
+}
+
+#eight{
+    grid-area:eight;
+}
+
+#nine{
+    grid-area:nine;
+}
+
+#delete{
+    grid-area:del;
+}
+
+#four{
+    grid-area:four;
+}
+
+#five{
+    grid-area:five;
+}
+#six{
+    grid-area:six;
+}
+
+#plus{
+    grid-area:plus;
+}
+#one{
+    grid-area:one;
+}
+
+#two{
+    grid-area:two;
+}
+#three{
+    grid-area:three;
+}
+#mines{
+    grid-area:mines;
+}
+
+#dot{
+    grid-area:point;
+}
+
+#zero{
+    grid-area:zero;
+}
+
+#divide{
+    grid-area:divide;
+}
+
+#multiply{
+    grid-area:multiply;
+}
+
+#reset{
+    grid-area:reset;
+}
+
+#equal{
+    grid-area:equal
+}
