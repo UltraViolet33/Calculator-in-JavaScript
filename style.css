@@ -1,81 +1,126 @@
-#keyboard{
-    display: grid;
+/*Calculator CSS File
+By Ulysse Valdenaire*/
 
-    grid-template-areas:"seven eight nine del"
-                        "four five six plus "
-                        "one two three mines"
-                        "point zero divide multiply"
-                        "reset reset equal equal";
-
-    width:300px;
-                        
-                        
+body {
+  background: #3b4664;
 }
 
-#seven{
-    grid-area:seven;
+#keyboard {
+  display: grid;
+  grid-template-areas:
+    "seven eight nine del"
+    "four five six plus "
+    "one two three mines"
+    "point zero divide multiply"
+    "reset reset equal equal";
+  width: 300px;
+  background: #252d44;
+  border-radius: 10px;
 }
 
-#eight{
-    grid-area:eight;
+#calculator {
+  width: 300px;
 }
 
-#nine{
-    grid-area:nine;
+#screen {
+  height: 100px;
+  background: #181f32;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }
 
-#delete{
-    grid-area:del;
+#result {
+  color: white;
+  text-align: right;
+  font-size: 40px;
+  margin: 0;
+  line-height: 2.3;
+  margin-right: 20px;
 }
 
-#four{
-    grid-area:four;
+button {
+  height: 35px;
+  margin: 10px;
+  color: #464b59;
+  border-radius: 7px;
+  font-weight: bold;
+
+  font-size: 17px;
+}
+#seven {
+  grid-area: seven;
 }
 
-#five{
-    grid-area:five;
-}
-#six{
-    grid-area:six;
+#eight {
+  grid-area: eight;
 }
 
-#plus{
-    grid-area:plus;
-}
-#one{
-    grid-area:one;
+#nine {
+  grid-area: nine;
 }
 
-#two{
-    grid-area:two;
-}
-#three{
-    grid-area:three;
-}
-#mines{
-    grid-area:mines;
+#delete,
+#reset {
+  grid-area: del;
+  color: white;
+  background: #647299;
 }
 
-#dot{
-    grid-area:point;
+#four {
+  grid-area: four;
 }
 
-#zero{
-    grid-area:zero;
+#five {
+  grid-area: five;
+}
+#six {
+  grid-area: six;
 }
 
-#divide{
-    grid-area:divide;
+#plus {
+  grid-area: plus;
+}
+#one {
+  grid-area: one;
 }
 
-#multiply{
-    grid-area:multiply;
+#two {
+  grid-area: two;
+}
+#three {
+  grid-area: three;
+}
+#mines {
+  grid-area: mines;
 }
 
-#reset{
-    grid-area:reset;
+#dot {
+  grid-area: point;
 }
 
-#equal{
-    grid-area:equal
+#zero {
+  grid-area: zero;
+}
+
+#divide {
+  grid-area: divide;
+}
+
+#multiply {
+  grid-area: multiply;
+}
+
+#reset {
+  grid-area: reset;
+}
+
+#equal {
+  grid-area: equal;
+  background: #d13f30;
+}
+
+#reset,
+#equal {
+  height: 35px;
+  color: white;
 }
