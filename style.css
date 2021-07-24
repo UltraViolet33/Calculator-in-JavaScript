@@ -1,0 +1,126 @@
+/*Calculator CSS File
+By Ulysse Valdenaire*/
+
+body {
+  background: #3b4664;
+}
+
+#keyboard {
+  display: grid;
+  grid-template-areas:
+    "seven eight nine del"
+    "four five six plus "
+    "one two three mines"
+    "point zero divide multiply"
+    "reset reset equal equal";
+  width: 300px;
+  background: #252d44;
+  border-radius: 10px;
+}
+
+#calculator {
+  width: 300px;
+}
+
+#screen {
+  height: 100px;
+  background: #181f32;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#result {
+  color: white;
+  text-align: right;
+  font-size: 40px;
+  margin: 0;
+  line-height: 2.3;
+  margin-right: 20px;
+}
+
+button {
+  height: 35px;
+  margin: 10px;
+  color: #464b59;
+  border-radius: 7px;
+  font-weight: bold;
+
+  font-size: 17px;
+}
+#seven {
+  grid-area: seven;
+}
+
+#eight {
+  grid-area: eight;
+}
+
+#nine {
+  grid-area: nine;
+}
+
+#delete,
+#reset {
+  grid-area: del;
+  color: white;
+  background: #647299;
+}
+
+#four {
+  grid-area: four;
+}
+
+#five {
+  grid-area: five;
+}
+#six {
+  grid-area: six;
+}
+
+#plus {
+  grid-area: plus;
+}
+#one {
+  grid-area: one;
+}
+
+#two {
+  grid-area: two;
+}
+#three {
+  grid-area: three;
+}
+#mines {
+  grid-area: mines;
+}
+
+#dot {
+  grid-area: point;
+}
+
+#zero {
+  grid-area: zero;
+}
+
+#divide {
+  grid-area: divide;
+}
+
+#multiply {
+  grid-area: multiply;
+}
+
+#reset {
+  grid-area: reset;
+}
+
+#equal {
+  grid-area: equal;
+  background: #d13f30;
+}
+
+#reset,
+#equal {
+  height: 35px;
+  color: white;
+}
