@@ -1,5 +1,7 @@
-/*Calculator CSS File
-By Ulysse Valdenaire*/
+/*
+Calculator CSS File
+By Ulysse Valdenaire
+*/
 
 body {
   background: #3b4664;
@@ -20,6 +22,8 @@ body {
 
 #calculator {
   width: 300px;
+  margin:auto;
+  margin-top: 100px;
 }
 
 #screen {

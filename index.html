@@ -1,6 +1,8 @@
-<!--Calculator HTLM File 
+<!--
+Calculator HTLM File 
 Created july 24th 2021
-By Ulysse Valdenaire-->
+By Ulysse Valdenaire
+-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,29 +22,29 @@ By Ulysse Valdenaire-->
 
         <!--Srceen to display the result-->
         <div id="screen">
-            <p id="result">jghhg</p>
+            <p id="result"></p>
         </div>
 
         <!--Keyboard-->
         <div id="keyboard">
-            <button id="seven">7</button>
-            <button id="eight">8</button>
-            <button id="nine">9</button>
-            <button id="delete">DEL</button>
-            <button id="four">4</button>
-            <button id="five">5</button>
-            <button id="six">6</button>
-            <button id="plus">+</button>
-            <button id="one">1</button>
-            <button id="two">2</button>
-            <button id="three">3</button>
-            <button id="mines">-</button>
-            <button id="dot">.</button>
-            <button id="zero">0</button>
-            <button id="divide">/</button>
-            <button id="multiply">x</button>
-            <button id="reset">RESET</button>
-            <button id="equal">=</button>
+            <button class="button" onclick='getValue(7);' id="seven">7</button>
+            <button class="button" onclick='getValue(8);' id="eight">8</button>
+            <button class="button" onclick='getValue(9);' id="nine">9</button>
+            <button class="button" onclick='deleteElement();' id="delete">DEL</button>
+            <button class="button" onclick='getValue(4);' id="four">4</button>
+            <button class="button" onclick='getValue(5);' id="five">5</button>
+            <button class="button" onclick='getValue(6);' id="six">6</button>
+            <button class="buttonOP" onclick='getValue("+");' id="plus">+</button>
+            <button class="button" onclick='getValue(1);' id="one">1</button>
+            <button class="button" onclick='getValue(2);' id="two">2</button>
+            <button class="button" onclick='getValue(3);' id="three">3</button>
+            <button class="buttonOP" onclick='getValue("-");' id="mines">-</button>
+            <button class="button" onclick='getValue(",");' id="dot">.</button>
+            <button class="button" onclick='getValue(0);' id="zero">0</button>
+            <button class="buttonOP" onclick='getValue("/");' id="divide">/</button>
+            <button class="buttonOP" onclick='getValue("x");' id="multiply">x</button>
+            <button class="button" onclick='reset();' id="reset">RESET</button>
+            <button class="button" id="equal">=</button>
         </div>
     </div>
 
