@@ -7,6 +7,12 @@ body {
   background: #3b4664;
 }
 
+h1{
+  text-align: center;
+  font-size:40px;
+
+}
+
 #keyboard {
   display: grid;
   grid-template-areas:
@@ -24,6 +30,7 @@ body {
   width: 300px;
   margin:auto;
   margin-top: 100px;
+  margin-top:40px;
 }
 
 #screen {
