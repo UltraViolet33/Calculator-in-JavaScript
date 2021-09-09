@@ -32,14 +32,17 @@ function getValue(value){
      screenResult.textContent ="";
  }
 
-
 /**
  * Function who makes the operations and displays the results
  */
 equalButton.addEventListener('click', function(){
     let strOperation = screenResult.textContent;
-    result = eval(strOperation);
-    screenResult.textContent = result;  
+    if(strOperation.includes('x')){
+        strOperation =  strOperation.replace('x', '*');
+        console.log(strOperation);
+    }
+      result = eval(strOperation);
+     screenResult.textContent = result;  
 })
 
 
