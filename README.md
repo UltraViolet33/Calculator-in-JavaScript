@@ -2,7 +2,7 @@
 
 A calculator in Javascript !
 
-https://ulysse28.github.io/Calculator/
+https://github.com/UltraViolet33/Calculator-in-JavaScript
 
 Here is what it looks like : 
 
