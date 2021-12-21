@@ -5,9 +5,9 @@
 
 //Gobal variables
 let buttonValue;
-let screenResult = document.getElementById('result');
-let equalButton = document.getElementById('equal');
-let buttons = document.getElementsByClassName('button');
+const screenResult = document.getElementById('result');
+const equalButton = document.getElementById('equal');
+const buttons = document.getElementsByClassName('button');
 
 //funtion who returns the value of the clicked button
 function getValue(value){

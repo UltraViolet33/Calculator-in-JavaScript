@@ -25,6 +25,7 @@ h1{
   width: 300px;
   background: #252d44;
   border-radius: 10px;
+  box-shadow: 5px 5px 5px ;
 }
 
 #calculator {
@@ -39,10 +40,11 @@ h1{
   background: #181f32;
   margin-bottom: 20px;
   border-radius: 10px;
+  box-shadow: 5px 5px 5px ;
 }
 
 #result {
-  color: white;
+  color: #02ff78;
   text-align: right;
   font-size: 40px;
   margin: 0;
@@ -135,6 +137,10 @@ button {
 #equal {
   height: 35px;
   color: white;
+}
+
+.center{
+  text-align: center;
 }
 
 @media screen and (max-width:300px){
