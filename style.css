@@ -11,7 +11,6 @@ h1{
   text-align: center;
   font-size:40px;
   color:white;
-
 }
 
 #keyboard {
@@ -58,9 +57,9 @@ button {
   color: #464b59;
   border-radius: 7px;
   font-weight: bold;
-
   font-size: 17px;
 }
+
 #seven {
   grid-area: seven;
 }
@@ -87,6 +86,7 @@ button {
 #five {
   grid-area: five;
 }
+
 #six {
   grid-area: six;
 }
@@ -94,6 +94,7 @@ button {
 #plus {
   grid-area: plus;
 }
+
 #one {
   grid-area: one;
 }
@@ -101,9 +102,11 @@ button {
 #two {
   grid-area: two;
 }
+
 #three {
   grid-area: three;
 }
+
 #mines {
   grid-area: mines;
 }
@@ -155,6 +158,4 @@ button {
   #keyboard{
     width:250px;
   }
-
 }
-
