@@ -44,18 +44,3 @@ equalButton.addEventListener('click', function(){
       result = eval(strOperation);
      screenResult.textContent = result;  
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
