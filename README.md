@@ -9,4 +9,6 @@ Here is what it looks like :
 
 [You can test it here !](https://ultraviolet33.github.io/Calculator-in-JavaScript/)
 
+I did it for fun !
+
 Enjoy !
